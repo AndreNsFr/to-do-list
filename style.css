@@ -15,7 +15,7 @@
         }
 
         .adicionando > input[type="text"]{
-            
+            box-shadow: 0px 0px 20px rgb(0, 0, 0);
             width: 100%;
             border-radius: 50px;
             padding-left: 15px;
@@ -46,10 +46,11 @@
             border-radius: 15px;
             background-color:#124559;
             min-height: 300px;
-            
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.699);
         }
         
         .listinhas > input[type="text"]{
+            
             color: #cfddc8;
             font-size: 25pt;
             width: 90%;
@@ -59,6 +60,7 @@
             outline: none;
             font-size: 27pt;
             background-color: #99b3a91f;
+            
         }
         
         .listinhas > input[type="checkbox"]{
@@ -79,9 +81,9 @@
         button {
             width: 70px;
             height: 100%;
-
+            box-shadow: 0px 0px 20px rgb(0, 0, 0);
             background-color: rgba(255, 255, 255, 0.719);
-            border: 1px solid;
+            border: 1px solid rgba(255, 255, 255, 0);
             border-radius: 99px;
             font-size: 40pt;
         }

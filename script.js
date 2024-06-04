@@ -56,11 +56,12 @@ function riscar(oque_riscar){
     var riscado = document.getElementById(oque_riscar)
     
 /////////////////////////////////////////////////////////
-    if (riscado.style.textDecoration === "line-through"){
+    if (riscado.style.textDecoration === "line-through rgba(0, 0, 0, 0.76)"){
         riscado.style.textDecoration = "none"
         document.getElementById(oque_riscar).style.color =  "#cfddc8"
     }else{
         riscado = document.getElementById(oque_riscar).style.textDecoration = "line-through"
+        document.getElementById(oque_riscar).style.textDecorationColor = "rgba(0, 0, 0, 0.76)"
         document.getElementById(oque_riscar).style.color =  "#cfddc871"
     }
 ///////////////////////////////////////////////////////////
